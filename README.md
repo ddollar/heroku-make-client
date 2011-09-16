@@ -17,8 +17,9 @@ Build software on Heroku
       -n, --name   NAME    # the name of the library (will default to the directory name)
       -o, --output FILE    # output build artifacts to this filemake [COMMAND]
       -p, --prefix PREFIX  # the build/install prefix of the software
-      -v, --verbose        # show the full build output    $ cd /tmp/memcached-1.4.7
+      -v, --verbose        # show the full build output
 
+    $ cd /tmp/memcached-1.4.7
     $ heroku make
     >> Packaging local directory for upload
     >> Building with: ./configure --prefix /app/vendor/memcached-1.4.7 && make install
